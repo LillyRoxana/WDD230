@@ -7,7 +7,7 @@ body{
 
 .header{
     display: flex;
-    background-color: #114c50;
+    background-color: #111150;
     color: #ffffff;
     justify-content: center;
     padding: 1rem;
@@ -25,7 +25,7 @@ body{
 }
 
 .footer {
-    background-color: #114c50;
+    background-color: #0d084e;
     color: #ffffff;
     text-align: center;
     padding: 1rem;
