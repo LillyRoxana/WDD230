@@ -9,7 +9,7 @@ p {
 
 header, footer {
     text-align: center;
-    background-color: #0b1f31;
+    background-color: #111150;
     color: white;
     padding: 0.5em;
 }
@@ -52,7 +52,7 @@ section h3, p{
 }
 
 .themes {
-    background-color: #3a4958;
+    background-color: #1b6285;
     height: 3.3rem;
     border-radius: 1rem 1rem 0 0;
     color: white;
