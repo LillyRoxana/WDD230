@@ -1,16 +1,21 @@
-@media (min-width: 1280px) {
-
-    .main {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
+@media only screen and (min-width: 60em) {
+    body {
+        max-width: 1000px;
+        margin: 0 auto;  
     }
-
-    .card h2 {
-        font-size: 1.2rem;
+    
+    main {
+        max-width: 1000px;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-self: center;
+        margin: auto;
     }
-
-    .card a,
-    p {
-        font-size: 1.2rem;
+    
+    img {
+        max-width: 270px;
+    }
+    
+    .section-3 {
+        grid-column: span 1;
     }
 }
