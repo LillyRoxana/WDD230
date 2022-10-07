@@ -39,7 +39,7 @@ header h1 {
 }
 
 nav {
-    background-color: #FF4B3E;
+    background-color: #87BCDE;
 }
 
 nav ul {
@@ -54,7 +54,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 1.2rem;
     font-weight: 500;
 }
@@ -109,7 +109,7 @@ td, th{
 }
 
 .accent1-background {
-    background-color: #FF4B3E;
+    background-color: #87BCDE;
     text-align: center;
 }
 
