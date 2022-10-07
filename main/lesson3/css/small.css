@@ -29,7 +29,7 @@ footer {
 }
 
 footer {
-    background: #B1B1B1;
+    background: #FFB20F;
 }
 
 header h1 {
@@ -39,7 +39,7 @@ header h1 {
 }
 
 nav {
-    background-color: #A690A4;
+    background-color: #FF4B3E;
 }
 
 nav ul {
@@ -109,11 +109,11 @@ td, th{
 }
 
 .accent1-background {
-    background-color: #A690A4;
+    background-color: #FF4B3E;
     text-align: center;
 }
 
 .accent2-background {
-    background-color: #B1B1B1;
+    background-color: #FFB20F;
     text-align: center;
 }
