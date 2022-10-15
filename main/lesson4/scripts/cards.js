@@ -1,4 +1,4 @@
-const URL = " https://lillyroxana.github.io/main/lesson4/json/data.json";
+const URL = "https://lillyroxana.github.io/main/lesson4/json/data.json";
 
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
