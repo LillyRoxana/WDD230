@@ -1,50 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="WDD 230 / Lesson 4 /  Assignment: Preston Town Page">
-    <title>Chamber of commerce</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is the Mexico City Chamber of Commerce. We are here to help businesses connect with their community."
+    />
+    <title>Mexico City Chamber of Commerce</title>
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/windchill.js" defer></script>
+    <script src="scripts/weather-api.js" defer></script>
+    <script src="scripts/silver-gold-members.js" defer></script>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+  </head>
+  <body>
     <header>
-        <div class="heading-l">
-        <img src="images/logo.png" alt="logo" id="logo">
-        <div class="heading">
-         <h1>Mexico City Chamber</h1>
-        
+      <div class="head">
+        <picture>
+          <img src="images/logo.webp" alt="CDMXCC Logo" />
+        </picture>
+        <div class="title">
+          <h1>Mexico City
+    <br />Chamber of Commerce</h1>
         </div>
+        <div class="socialMedia">
+          <span>
+            <a href="https://www.facebook.com/">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14222 14222">
+                <circle cx="7111" cy="7112" r="7111" fill="#1977f3"></circle>
+                <path
+                  d="M9879 9168l315-2056H8222V5778c0-562 275-1111 1159-1111h897V2917s-814-139-1592-139c-1624 0-2686 984-2686 2767v1567H4194v2056h1806v4969c362 57 733 86 1111 86s749-30 1111-86V9168z"
+                  fill="#fff"
+                />
+              </svg>
+            </a>
+          </span>
+          <span>
+            <a href="https://www.linkedin.com/">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 64 64"
+                role="img"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <title>Linkedin</title>
+                <desc>A color styled icon from Orion Icon Library.</desc>
+                <path
+                  data-name="layer1"
+                  fill="#0077b7"
+                  d="M1.15 21.7h13V61h-13zm46.55-1.3c-5.7 0-9.1 2.1-12.7 6.7v-5.4H22V61h13.1V39.7c0-4.5 2.3-8.9 7.5-8.9s8.3 4.4 8.3 8.8V61H64V38.7c0-15.5-10.5-18.3-16.3-18.3zM7.7 2.6C3.4 2.6 0 5.7 0 9.5s3.4 6.9 7.7 6.9 7.7-3.1 7.7-6.9S12 2.6 7.7 2.6z"
+                ></path>
+              </svg>
+            </a>
+          </span>
         </div>
-        <nav>
-            <ul class="navigation">
-                <li><a class="menu" href="#">&#9776; Menu</a></li>
-                <li><a href="">Home</a></li>
-                <li><a href="">Products</a></li>
-                <li><a href="">Location</a></li>
-                <li><a href="">Contact</a></li>
-        
-               
-            </ul>
-        </nav>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+      </div>
+      <div class="now">
+        <p id="today"></p>
+      </div>
+      <nav>
+        <ul id="primaryNav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a>Discover</a></li>
+          <li><a>Directory</a></li>
+          <li><a>Join</a></li>
+          <li><a>Contact</a></li>
+        </ul>
+      </nav>
+      <div id="joinUs">
+        <h2>
+          🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00
+          p.m!
+        </h2>
+      </div>
     </header>
-    <main>
-        <h2>Chamber of commerce</h2>
-        <img src="https://via.placeholder.com/1000x150" alt="placeholder" id="placeholder">
-        <div class="content">Hero with site name and call to action</div>
-        <div class="content">Event</div>
-        <div class="content">Weather</div>
-        <div class="content">News Release</div>
-    </main>
-    <footer class="footer">
+    <main class="home">
+      <div class="section hero">
+        <h2>Mexico City Chamber of Commerce.
+          Come join us for the chamber meet and greet Wednesday at 7:00
+          p.m
+        </h2>
+        <picture>
+          <source media="(max-width:520px)" srcset="images/genevaSmall.jpg" />
+          <source media="(max-width:1023px)" srcset="images/genevaMedium.jpg" />
+          <img src="images/cdmx.jpg" alt="Lake Geneva, Switzerland" />
+        </picture>
+        <a>Join the Chamber</a>
+      </div>
+      <div class="section events">
+        <h2>Centro Madero México</h2>
+        <picture> <img src="images/ring.png" alt="Ring Logo" /></picture>
+        <h3>Jewelry Center</h3>
         <p>
-           &copy; 2022 | Lilly R. Armenta | Brigham Young University- Idaho WDD230 
+          Join us for the grand opening of Jewelry Center, Thursday at 1:00 p.m.
         </p>
-        <p class="last-update" id="lastModified"></p>
-      </footer>
-      <script src="js/last-modified.js" defer></script>
-</body>
+        <a href="#">more info ...</a>
+      </div>
+      <div class="section weather">
+        <h2>Weather</h2>
+        <div class="climate">
+          <picture>
+            <img src="" alt="" id="weather-icon" />
+          </picture>
+          <h1><span id="temperature"></span>&#176;C</h1>
+          <h2 id="condition"></h2>
+        </div>
+        <div class="climate">
+          <p>Wind Speed:</p>
+          <p><span id="windSpeed"></span> km/h</p>
+          <p>Wind Chill:</p>
+          <p id="windChill">N/A</p>
+        </div>
+      </div>
+      <div class="section news">
+        <h2>News Release</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+      </div>
+      <div class="section joinbox">
+        <a> Join Us!</a>
+        <p>
+          Discover how to join Mexico City chamber of commerce and how it will benefit your organization!
+        </p>
+      </div>
+      <div id="spots" class="section spots"></div>
+    </main>
+    <footer>
+      <div class="main">
+        <picture>
+          <img src="images/logo.webp" alt=" CDMXCC Logo" />
+        </picture>
+        <div class="mainTitle">
+          <h2>
+            Mexico City
+    <br />
+            Chamber of Commerce
+          </h2>
+          <p>Insurgentes Sur 319<br />Hipódromo Condesa, Mexico City</p>
+        </div>
+        <div class="mainInfo">
+          <p>hola@cdmxcc.com</p>
+          <p>(+52) 5612 344 567</p>
+          <a
+            href="https://www.google.com/maps/place/Av.+Insurgentes+Sur+319,+Hip%C3%B3dromo,+Cuauht%C3%A9moc,+06100+Ciudad+de+M%C3%A9xico,+CDMX/@19.4135422,-99.1685835,17z/data=!3m1!4b1!4m5!3m4!1s0x85d1ff3f49d4891f:0xe50e05b643f6c4a2!8m2!3d19.4135372!4d-99.1663948"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              version="1.1"
+              id="DESIGNS"
+              x="0px"
+              y="0px"
+              viewBox="0 0 32 32"
+              style="enable-background: new 0 0 32 32"
+              xml:space="preserve"
+            >
+              <title>to pin</title>
+              <desc>
+                An icon for "pin" from the Stone series on to [icon]. Downloaded
+                from http://www.toicon.com/icons/stone_pin by 127.0.0.1 on
+                2017-07-10. Licensed CC-BY, see http://toicon.com/license/ for
+                details.
+              </desc>
+              <path
+                class="stone_een"
+                d="M30.5,30.5c-0.148,0.148-0.344,0.224-0.54,0.224c-0.176,0-0.353-0.061-0.497-0.184l-11.084-9.505  l2.659-2.659l9.501,11.087C30.799,29.766,30.782,30.218,30.5,30.5z M24.293,12.293l-0.879-0.879  c-0.391-0.391-0.902-0.586-1.414-0.586s-1.024,0.195-1.414,0.586L20.45,11.55l-8.807-7.206c0.717-0.785,0.702-1.999-0.057-2.758  l-0.879-0.879c-0.391-0.391-1.024-0.391-1.414,0L0.707,9.293c-0.391,0.391-0.391,1.024,0,1.414l0.879,0.879  c0.389,0.389,0.897,0.582,1.406,0.582c0.485,0,0.97-0.176,1.352-0.525l7.206,8.807l-0.136,0.136c-0.781,0.781-0.781,2.047,0,2.828  l0.879,0.879c0.391,0.391,1.024,0.391,1.414,0l10.586-10.586C24.683,13.317,24.683,12.683,24.293,12.293z"
+                style="fill: #fff"
+              />
+            </svg>
+            Location Map
+          </a>
+        </div>
+      </div>
+      <div class="footer">
+        <p id="year">&#169; 2022 Mexico City
+   Chamber</p>
+        <p>Lilly Armenta</p>
+        <p>WDD 230 Project</p>
+        <p id="modified"></p>
+      </div>
+    </footer>
+  </body>
 </html>
