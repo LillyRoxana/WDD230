@@ -1,4 +1,4 @@
-const URL = "https:///wdd230/chamber/json/data.json";
+const URL = "https://lillyroxana.github.io/main/lesson4/json/data.json";
 
 const display = document.getElementById("spots");
 
