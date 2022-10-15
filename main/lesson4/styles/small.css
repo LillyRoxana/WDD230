@@ -35,7 +35,7 @@ header picture img body {
 
 header div,
 footer {
-  background-color: #0a2032;
+  background-color: black;
 }
 
 header,
@@ -114,8 +114,8 @@ section,
 .join .section:nth-child(2) div:nth-child(n + 1),
 .directorymenu,
 #joinUs {
-  background-color: #00a8f3;
-  box-shadow: 1px -1px 10px 1px #000;
+  background-color: #181866;
+  box-shadow: 1px -1px 10px 1px black;
 }
 
 nav ul li a,
@@ -135,7 +135,7 @@ section a,
 .events a,
 .spots a,
 .socialMedia a {
-  color: #000;
+  color: white;
 }
 
 nav ul li a {
@@ -145,11 +145,11 @@ nav ul li a {
 }
 
 nav ul li.active a {
-  background-color: #185b78;
+  background-color: #186d78;
 }
 
 nav ul li a:hover {
-  background-color: rgb(37, 150, 190);
+  background-color: rgb(0, 0, 0);
 }
 
 nav ul,
@@ -165,6 +165,7 @@ header,
 .hero,
 .events picture {
   position: relative;
+  color: white
 }
 
 footer h2,
@@ -215,7 +216,7 @@ iframe {
 }
 /* id selector */
 #today {
-  background-color: rgba(37, 150, 190, 0.5);
+  background-color: #186d78;
   width: 96%;
 }
 
@@ -237,6 +238,7 @@ iframe {
 .events picture img,
 .hero a {
   position: absolute;
+  color: black
 }
 
 .head,
@@ -276,6 +278,7 @@ iframe {
 .section {
   margin: 15px auto 0;
   width: fit-content;
+  color: white
 }
 
 .events picture {
@@ -290,7 +293,7 @@ iframe {
 
 .section h3,
 .climate h2 {
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid white;
 }
 
 .section h3 {
@@ -445,9 +448,9 @@ form label.top select,
 form label.top textarea {
   -webkit-appearance: none;
   font-size: 20px;
-  border: solid 1px #00a8f3;
+  border: solid 1px #0d0e0e;
   padding: 12px;
-  background-color: rgba(37, 150, 190, 0.5);
+  background-color: rgba(10, 11, 11, 0.5);
 }
 
 form label.options {
@@ -461,7 +464,7 @@ form label.options {
 form input.joinBtn {
   font-size: 20px;
   border: none;
-  background-color: #0a2032;
+  background-color: white;
   color: white;
   padding: 12px 24px;
   margin: 0px 30px 15px 30px;
