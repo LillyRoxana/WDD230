@@ -1,44 +1,44 @@
 {
     "businesses": [
         {
-            "name": "Market Migros",
+            "name": "Mexico Market",
             "address": "Mexico, Mexico City",
             "phone":"+9999 999 999",
-            "website": "https://filialen.migros.ch/de/migros-supermarkt-romanel-sur-lausanne",
-            "site": "www.filialen.migros.com",
+            "website": "https://mexicomarket.com",
+            "site": "www.mexicomarket.com",
             "imageurl": "https://lillyroxana.github.io/main/lesson4/images/migrosx.svg",
-            "membership": "Silver",
+            "membership": "NP",
             "moto": "Eat well!"
         },
         {
             "name": "Mexico Museum",
             "address": "Mexico, Mexico City",
             "phone": "+9999 999 999",
-            "website": "https://www.mcba.com/",
-            "site": "www.mcba.com",
+            "website": "https://www.mexicomuseum.com/",
+            "site": "www.mexicomuseum.com",
             "imageurl": "https://plateforme10.ch/wp-content/themes/plateforme10/assets/images/logo-p10-full.svg",
-            "membership": "Silver",
-            "moto": "Rich program of exhibitions!"
+            "membership": "NP",
+            "moto": "Visit Mexico!"
         },
         {
             "name": "Mexico Place",
             "address": "Mexico, Mexico City",
             "phone": "+9999 999 999",
-            "website": "http://www.cathedrale-lausanne.ch/accueil/",
-            "site": "www.cathedrale-lausanne.com",
+            "website": "http://www.mexicoplace.com",
+            "site": "www.mexicoplace.com",
             "imageurl": "https://lillyroxana.github.io/main/lesson4/images/logo-cathedrale-small.png",
             "membership": "NP",
-            "moto": "Number one place for art and tourism!"
+            "moto": "Place for art and tourism!"
         },
         {
-            "name": "Centre hospitalier universitaire vaudois",
+            "name": "Mexico Hospital",
             "address": "Mexico, Mexico City",
             "phone": "+9999 999 999",
-            "website": "https://www.chuv.ch/fr/chuv-home/",
-            "site": "www.chuv.com",
+            "website": "https://www.mexicohospital.com",
+            "site": "www.mexicohospital.com",
             "imageurl": "https://www.chuv.ch/typo3conf/ext/site_package/Resources/Public/Patternlab/images/chuv.png",
-            "membership": "Silver",
-            "moto": "Mobilize the community and encourage philanthropic gestures!"
+            "membership": "NP",
+            "moto": "Be healthy"
         },
         {
             "name": "Cobalt Project",
