@@ -11,11 +11,11 @@
             "moto": "Eat well!"
         },
         {
-            "name": "Mexico Museum",
+            "name": "Bellas Artes",
             "address": "Mexico, Mexico City",
             "phone": "+9999 999 999",
-            "website": "https://www.mcba.com/",
-            "site": "www.mcba.com",
+            "website": "http://museopalaciodebellasartes.gob.mx/",
+            "site": "www.museopalaciodebellasartes.gob.mx/",
             "imageurl": "https://plateforme10.ch/wp-content/themes/plateforme10/assets/images/logo-p10-full.svg",
             "membership": "Silver",
             "moto": "Rich program of exhibitions!"
@@ -24,8 +24,8 @@
             "name": "Mexico Place",
             "address": "Mexico, Mexico City",
             "phone": "+9999 999 999",
-            "website": "http://www.cathedrale-lausanne.ch/accueil/",
-            "site": "www.cathedrale-lausanne.com",
+            "website": "https://palaciodelosdeportes.mx/",
+            "site": "www.palaciodelosdeportes.mx",
             "imageurl": "https://lillyroxana.github.io/main/lesson4/images/logo-cathedrale-small.png",
             "membership": "NP",
             "moto": "Number one place for art and tourism!"
@@ -34,8 +34,8 @@
             "name": "Centre hospitalier universitaire vaudois",
             "address": "Mexico, Mexico City",
             "phone": "+9999 999 999",
-            "website": "https://www.chuv.ch/fr/chuv-home/",
-            "site": "www.chuv.com",
+            "website": "https://sanangelinn.com/",
+            "site": "www.sanangelinn.com",
             "imageurl": "https://www.chuv.ch/typo3conf/ext/site_package/Resources/Public/Patternlab/images/chuv.png",
             "membership": "Silver",
             "moto": "Mobilize the community and encourage philanthropic gestures!"
@@ -64,7 +64,7 @@
             "name": "Nestlé",
            "address": "Mexico, Mexico City",
            "phone": "+9999 999 999",
-            "website": "https://www.nestle.ch/fr/nestlesuisse/recherche",
+            "website": "https://www.nestle.com.mx/",
             "site": "www.nestle.com",
             "imageurl": "https://www.nestle.ch/themes/custom/da_vinci_code/logo.png",
             "membership": "Gold",
