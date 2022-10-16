@@ -3,12 +3,31 @@
   header,
   main,
   footer {
-    width: 700px;
+    max-width: 700px;
+  }
+
+  body {
+    background-color: white;
+  }
+
+  header picture img {
+    width: 120px;
+  }
+
+  header picture:nth-child(1) {
+    padding-left: 9px;
+  }
+
+  header svg {
+    width: 40px;
   }
 
   main,
   .main,
-  .footer {
+  .spots,
+  .footer,
+  .discover picture,
+  .join .section {
     display: grid;
   }
 
@@ -17,10 +36,14 @@
     column-gap: 10px;
   }
 
-  main {
-    grid-template-columns: 1fr 1fr 280px;
+  footer {
+    padding: 0 10px;
   }
 
+  iframe {
+    margin: 24px auto;
+    height: 618px;
+  }
   /* id selector */
   #today {
     width: 97%;
@@ -30,31 +53,62 @@
     text-align: right;
   }
 
-  #modified {
+  #modified,
+  .hero,
+  .news,
+  .spots,
+  .joinbox {
     grid-column: 1/4;
-    text-align: center;
   }
 
   /* class selector */
+  .title h1 {
+    font-size: 25px;
+  }
+
+  .home {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
   .head {
     grid-template-columns: 140px 1fr 50px 50px 100px;
   }
 
-  .hero,
-  .news,
-  .spots,
-  .join {
-    grid-column: 1/4;
+  .hero picture img,
+  .joinbox,
+  .join .section {
+    width: 100%;
+  }
+
+  .hero h2 {
+    left: 25%;
+    top: 5%;
   }
 
   .news {
     grid-row: 2;
   }
 
-  .join {
+  .joinbox {
     grid-row: 4;
     display: block;
-    width: 100%;
+  }
+
+  .joinbox a {
+    padding: 10px 42%;
+  }
+
+  .joinbox p,
+  .events h2,
+  .events h3 {
+    padding: 25px 10px;
+  }
+
+  .events,
+  .weather,
+  .membership,
+  .list section {
+    margin-bottom: 15px;
   }
 
   .events,
@@ -62,47 +116,43 @@
     grid-row: 5;
   }
 
-  .join p,
-  .events h2,
-  .events h3 {
-    padding: 25px 10px;
-  }
-
   .events h3 {
     border-bottom: none;
   }
 
   .events picture {
-    left: 28%;
-    top: 39%;
+    top: 8%;
   }
 
-  .weather {
-    grid-column: 3;
+  .spots,
+  .spot2,
+  .hero,
+  .news,
+  .joinbox,
+  .list section:nth-last-child(1) {
+    margin-bottom: 0;
   }
 
-  .events {
-    grid-column: 1/3;
+  .spot1,
+  .spot3,
+  .map {
+    margin: 0;
   }
 
   .spot2,
-  .mainTitle {
+  .mainTitle,
+  .join .section {
     grid-column: 2;
   }
 
+  .weather,
   .info,
   .location {
     grid-column: 3;
   }
 
-  .spots {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-
   .main {
-    grid-template-columns: 200px 250px 1fr;
-    column-gap: 5px;
+    grid-template-columns: 200px 1fr 160px;
   }
 
   .main picture img {
@@ -110,31 +160,113 @@
   }
 
   .mainTitle,
-  .mainInfo {
-    margin: auto;
+  .footer p:nth-child(3) {
+    text-align: left;
   }
 
-  .mainTitle,
-  .footer p {
-    text-align: left;
+  .mainTitle {
+    padding-left: 7px;
   }
 
   .mainInfo {
     position: relative;
-  }
-
-  .mainInfo svg {
-    bottom: 22px;
-    left: 0%;
+    padding-bottom: 0;
+    margin: auto;
   }
 
   .footer {
-    margin-top: 10px;
-    grid-template-columns: 1fr 133px 1fr;
+    padding: 10px 0 10px;
   }
 
-  .footer h3 {
+  .join .section:nth-child(2) div:nth-child(n + 2) {
+    margin-top: 10px;
+  }
+
+  .footer {
+    grid-template-columns: 1fr 130px 1fr;
+  }
+
+  .footer p:nth-child(5) {
+    grid-column: 1/5;
+  }
+
+  .mainTitle,
+  .footer p {
+    margin: auto 0;
+  }
+
+  .footer p:nth-child(2) {
     border-style: solid;
     border-width: 0 2px 0 2px;
+  }
+
+  .discover picture img:hover {
+    box-shadow: inset 0 0 30px #76d6ff;
+  }
+
+  .join,
+  .directory,
+  .discoverPage,
+  .home,
+  .submittedPage {
+    background-color: #fff;
+  }
+
+  .join {
+    grid-template-columns: 425px 1fr;
+  }
+
+  .join .section {
+    grid-template-rows: repeat(4, auto);
+  }
+
+  .contact {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  form fieldset {
+    margin: 15px auto;
+  }
+
+  form input.joinBtn {
+    margin: 0px 12px 15px 12px;
+  }
+
+  section h2,
+  section p,
+  section a {
+    margin: 0 auto;
+  }
+
+  @media (min-width: 40em) {
+    .list,
+    .list section {
+      display: flex;
+    }
+
+    .list {
+      flex-direction: column;
+    }
+
+    .list section {
+      justify-content: left;
+      align-items: center;
+    }
+
+    .list section h2 {
+      width: 200px;
+    }
+
+    .list section a {
+      width: 150px;
+    }
+
+    .list section p:nth-child(2) {
+      width: 160px;
+    }
+
+    .list section p:nth-child(3) {
+      width: 100px;
+    }
   }
 }

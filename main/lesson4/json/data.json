@@ -1,0 +1,94 @@
+{
+    "businesses": [
+        {
+            "name": "Chedraui",
+            "address": "Mexico, Mexico City",
+            "phone":"+9999 999 999",
+            "website": "https://www.chedraui.com.mx/selecto",
+            "site": "www.chedraui.com",
+            "imageurl": "https://chedrauimx.vtexassets.com/assets/vtex.file-manager-graphql/images/ea5c1413-971b-4b55-a906-d232216b2dd9___df4fd208880219bf1d7d67626306b6d5.svg",
+            "membership": "Silver",
+            "moto": "It costs less here!"
+        },
+        {
+            "name": "Bellas Artes",
+            "address": "Mexico, Mexico City",
+            "phone": "+9999 999 999",
+            "website": "http://museopalaciodebellasartes.gob.mx/",
+            "site": "www.bellasartes.gob.mx/",
+            "imageurl": "https://palacio.inba.gob.mx/images/headers/PBA_Imagen_Sala_Principal_del_PBA_Dividida_-_Header.jpg",
+            "membership": "Silver",
+            "moto": "Expand your culture!"
+        },
+        {
+            "name": "Palacio",
+            "address": "Mexico, Mexico City",
+            "phone": "+9999 999 999",
+            "website": "https://palaciodelosdeportes.mx/",
+            "site": "www.palaciodelosdeportes.mx",
+            "imageurl": "https://lillyroxana.github.io/main/lesson4/images/logo-cathedrale-small.png",
+            "membership": "NP",
+            "moto": "Live the music!"
+        },
+        {
+            "name": "San Angel Inn Hospital",
+            "address": "Mexico, Mexico City",
+            "phone": "+9999 999 999",
+            "website": "https://sanangelinn.com/",
+            "site": "www.sanangelinn.com",
+            "imageurl": "https://sanangelinn.com/wp-content/themes/sai/img/logo-san-angel-inn.png",
+            "membership": "Silver",
+            "moto": "We hope to take care of you"
+        },
+        {
+            "name": "DocsMX",
+            "address": "Mexico, Mexico City",
+            "phone": "+9999 999 999",
+            "website": "https://docsmx.org/",
+            "site": "www.docsmx.org",
+            "imageurl": "https://docsmx.org/img/logo/logo-docsmx-white-big@2x.png",
+            "membership": "Bronze",
+            "moto": "Get to know us!"
+        },
+        {
+            "name": "El rollo",
+            "address": "Mexico, Mexico City",
+            "phone": "+9999 999 999",
+            "website": "https://elrollo.com.mx/",
+            "site": "www.aquasplash.com",
+            "imageurl": "https://elrollo.com.mx/images/el_rollo_logo_sm.png",
+            "membership": "Gold",
+            "moto": "Be Fun!"
+        },
+        {
+            "name": "Nestlé",
+           "address": "Mexico, Mexico City",
+           "phone": "+9999 999 999",
+            "website": "https://www.nestle.com.mx/",
+            "site": "www.nestle.com",
+            "imageurl": "https://www.nestle.com.mx/themes/custom/da_vinci_code/logo.png",
+            "membership": "Gold",
+            "moto": "Good food, good life"
+        },
+        {
+            "name": "Six Flags Mexico",
+            "address": "Mexico, Mexico City",
+            "phone": "+9999 999 999",
+            "website": "https://www.sixflags.com.mx/mexico",
+            "site": "www.sixflags.com",
+            "imageurl": "https://sf-static.sixflags.com/wp-content/uploads/2020/04/coasterlogo.png",
+            "membership": "Bronze",
+            "moto": "Performance. Community. Education."
+        },
+        {
+            "name": "Decatlon",
+            "address": "Mexico, Mexico City",
+            "phone": "+9999 999 999",
+            "website": "https://www.decathlon.com.mx/",
+            "site": "www.decathlon.com",
+            "imageurl": "https://www.decathlon.com.mx/themes/decashop_v5/assets/img/logo-decathlon-blue.svg",
+            "membership": "Gold",
+            "moto": "Welcome to the sport's heaven!"
+        }
+    ]
+}
