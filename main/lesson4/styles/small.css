@@ -479,8 +479,6 @@ form label.top input:required:valid {
 }
 
 form input[type="radio"] {
-  -ms-transform: scale(1.2); /* IE 9 */
-  -webkit-transform: scale(1.2); /* Chrome, Safari, Opera */
   transform: scale(1.2);
   margin-right: 5px;
 }
