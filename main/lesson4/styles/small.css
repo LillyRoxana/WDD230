@@ -47,7 +47,7 @@ header picture,
 .spot1,
 .spot2,
 .spot3 {
-  padding: 10px;
+  padding: 7px;
 }
 
 header picture img {
@@ -86,7 +86,7 @@ nav {
 nav button,
 nav ul li a,
 .section p {
-  padding: 5px 10px;
+  padding: 0px 5px;
 }
 
 nav button {
@@ -170,7 +170,7 @@ footer p,
 .events a,
 .spot1,
 .spot2 {
-  padding: 5px;
+  padding: 0px;
 }
 
 footer,
