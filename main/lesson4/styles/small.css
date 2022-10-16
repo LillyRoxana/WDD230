@@ -446,7 +446,6 @@ form input.joinBtn {
 form label.top input,
 form label.top select,
 form label.top textarea {
-  -webkit-appearance: none;
   font-size: 20px;
   border: solid 1px #0d0e0e;
   padding: 12px;
