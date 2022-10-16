@@ -51,14 +51,14 @@
             "moto": "Get to know us!"
         },
         {
-            "name": "Aquasplash",
+            "name": "El rollo",
             "address": "Mexico, Mexico City",
             "phone": "+9999 999 999",
-            "website": "http://www.aquasplash.com/",
+            "website": "https://elrollo.com.mx/",
             "site": "www.aquasplash.com",
-            "imageurl": "https://lillyroxana.github.io/main/lesson4/images/aquasplash.png",
+            "imageurl": "https://elrollo.com.mx/images/el_rollo_logo_sm.png",
             "membership": "Gold",
-            "moto": "Fill up on thrills!"
+            "moto": "Be Fun!"
         },
         {
             "name": "Nestlé",
@@ -88,7 +88,7 @@
             "site": "www.decathlon.com",
             "imageurl": "https://www.decathlon.com.mx/themes/decashop_v5/assets/img/logo-decathlon-blue.svg",
             "membership": "Gold",
-            "moto": "Welcome to the biker's paradise!"
+            "moto": "Welcome to the sport's heaven!"
         }
     ]
 }
