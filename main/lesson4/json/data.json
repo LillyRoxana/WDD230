@@ -1,14 +1,14 @@
 {
     "businesses": [
         {
-            "name": "Market Migros",
+            "name": "Chedraui",
             "address": "Mexico, Mexico City",
             "phone":"+9999 999 999",
             "website": "https://www.chedraui.com.mx/selecto",
             "site": "www.chedraui.com",
             "imageurl": "https://chedrauimx.vtexassets.com/assets/vtex.file-manager-graphql/images/ea5c1413-971b-4b55-a906-d232216b2dd9___df4fd208880219bf1d7d67626306b6d5.svg",
             "membership": "Silver",
-            "moto": "Eat well!"
+            "moto": "It costs less here!"
         },
         {
             "name": "Bellas Artes",
@@ -18,17 +18,17 @@
             "site": "www.bellasartes.gob.mx/",
             "imageurl": "https://palacio.inba.gob.mx/images/headers/PBA_Imagen_Sala_Principal_del_PBA_Dividida_-_Header.jpg",
             "membership": "Silver",
-            "moto": "Rich program of exhibitions!"
+            "moto": "Expand your culture!"
         },
         {
-            "name": "Mexico Place",
+            "name": "Palacio",
             "address": "Mexico, Mexico City",
             "phone": "+9999 999 999",
             "website": "https://palaciodelosdeportes.mx/",
             "site": "www.palaciodelosdeportes.mx",
             "imageurl": "https://lillyroxana.github.io/main/lesson4/images/logo-cathedrale-small.png",
             "membership": "NP",
-            "moto": "Number one place for art and tourism!"
+            "moto": "Live the music!"
         },
         {
             "name": "San Angel Inn Hospital",
@@ -38,7 +38,7 @@
             "site": "www.sanangelinn.com",
             "imageurl": "https://sanangelinn.com/wp-content/themes/sai/img/logo-san-angel-inn.png",
             "membership": "Silver",
-            "moto": "Mobilize the community and encourage philanthropic gestures!"
+            "moto": "We hope to take care of you"
         },
         {
             "name": "Cobalt Project",
@@ -66,9 +66,9 @@
            "phone": "+9999 999 999",
             "website": "https://www.nestle.com.mx/",
             "site": "www.nestle.com",
-            "imageurl": "https://www.nestle.ch/themes/custom/da_vinci_code/logo.png",
+            "imageurl": "https://www.nestle.com.mx/themes/custom/da_vinci_code/logo.png",
             "membership": "Gold",
-            "moto": "We believe in the power of food to enhance quality of life."
+            "moto": "Good food, good life"
         },
         {
             "name": "Six Flags Mexico",
