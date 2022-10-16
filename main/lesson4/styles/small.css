@@ -446,7 +446,6 @@ form input.joinBtn {
 form label.top input,
 form label.top select,
 form label.top textarea {
-  -webkit-appearance: none;
   font-size: 20px;
   border: solid 1px #0d0e0e;
   padding: 12px;
@@ -479,8 +478,6 @@ form label.top input:required:valid {
 }
 
 form input[type="radio"] {
-  -ms-transform: scale(1.2); /* IE 9 */
-  -webkit-transform: scale(1.2); /* Chrome, Safari, Opera */
   transform: scale(1.2);
   margin-right: 5px;
 }
