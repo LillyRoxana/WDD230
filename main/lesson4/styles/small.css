@@ -463,8 +463,8 @@ form label.options {
 form input.joinBtn {
   font-size: 20px;
   border: none;
-  background-color: white;
-  color: white;
+  background-color: rgb(16, 16, 103);
+  color: rgb(255, 255, 255);
   padding: 12px 24px;
   margin: 0px 30px 15px 30px;
 }
