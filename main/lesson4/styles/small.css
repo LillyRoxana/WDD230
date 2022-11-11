@@ -114,7 +114,7 @@ section,
 .join .section:nth-child(2) div:nth-child(n + 1),
 .directorymenu,
 #joinUs {
-  background-color: #181866;
+  background-color: rgb(66, 66, 158);
   box-shadow: 1px -1px 10px 1px black;
 }
 
@@ -238,7 +238,7 @@ iframe {
 .events picture img,
 .hero a {
   position: absolute;
-  color: black
+  color: white
 }
 
 .head,
@@ -361,7 +361,7 @@ footer,
 .joinbox a,
 .hero a {
   border-radius: 15px;
-  background-color: #0a2032;
+  background-color: rgb(66, 66, 158);
   color: #fff;
   border: 2px solid #000;
 }
@@ -463,7 +463,7 @@ form label.options {
 form input.joinBtn {
   font-size: 20px;
   border: none;
-  background-color: rgb(16, 16, 103);
+  background-color: rgb(66, 66, 158);
   color: rgb(255, 255, 255);
   padding: 12px 24px;
   margin: 0px 30px 15px 30px;
