@@ -7,6 +7,7 @@
     <title>Mexico City Chamber of Commerce</title>
     <script src="scripts/main.js" defer></script>
     <script src="scripts/windchill.js" defer ></script>
+    <script src="scripts/weather-api.js" defer></script>
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
@@ -74,10 +75,6 @@
     </header>
     <main class="home">
       <div class="section hero">
-        <h2>Mexico City Chamber of Commerce.
-          Come join us for the chamber meet and greet Wednesday at 7:00
-          p.m
-        </h2>
         <picture>
           <source media="(max-width: 500px" srcset="images/wdd230-org462x260.jpg">
           <source media="(max-width: 1023px" srcset="images/wdd230-org700x300.jpg">
@@ -98,14 +95,14 @@
         <h2>Weather</h2>
         <div class="climate">
           <picture>
-            <img src="images/weather.png" alt="weather">
+            <img src="" alt="" id="weather-icon" />
           </picture>
-          <h1><span id="temperature">25</span>&#176;C</h1>
-          <h2>Partly Cloudy</h2>
+          <h1><span id="temperature"></span>&#176;C</h1>
+          <h2 id="condition"></h2>
         </div>
         <div class="climate">
           <p>Wind Speed:</p>
-          <p><span id="windSpeed">3.2</span> km/h</p>
+          <p><span id="windSpeed"></span> km/h</p>
           <p>Wind Chill:</p>
           <p id="windChill">N/A</p>
         </div>
