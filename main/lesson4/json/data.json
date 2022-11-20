@@ -6,7 +6,8 @@
             "phone":"+9999 999 999",
             "website": "https://www.chedraui.com.mx/selecto",
             "site": "www.chedraui.com",
-            "imageurl": "https://chedrauimx.vtexassets.com/assets/vtex.file-manager-graphql/images/ea5c1413-971b-4b55-a906-d232216b2dd9___df4fd208880219bf1d7d67626306b6d5.svg"
+            "imageurl": "https://chedrauimx.vtexassets.com/assets/vtex.file-manager-graphql/images/ea5c1413-971b-4b55-a906-d232216b2dd9___df4fd208880219bf1d7d67626306b6d5.svg",
+            "membership": "Silver"
             
         },
         {
@@ -15,7 +16,8 @@
             "phone": "+9999 999 999",
             "website": "http://museopalaciodebellasartes.gob.mx/",
             "site": "www.bellasartes.gob.mx/",
-            "imageurl": "https://palacio.inba.gob.mx/images/headers/PBA_Imagen_Sala_Principal_del_PBA_Dividida_-_Header.jpg"
+            "imageurl": "https://pbs.twimg.com/profile_images/1562853044433424384/IeXJ0m-2_400x400.jpg",
+            "membership": "Gold"
             
         },
         {
@@ -24,7 +26,8 @@
             "phone": "+9999 999 999",
             "website": "https://palaciodelosdeportes.mx/",
             "site": "www.palaciodelosdeportes.mx",
-            "imageurl": "https://media.ticketmaster.com/tm/en-us/dbimages/21945v.jpg"
+            "imageurl": "https://media.ticketmaster.com/tm/en-us/dbimages/21945v.jpg",
+            "membership": "NP"
             
         },
         {
@@ -33,7 +36,8 @@
             "phone": "+9999 999 999",
             "website": "https://sanangelinn.com/",
             "site": "www.sanangelinn.com",
-            "imageurl": "https://sanangelinn.com/wp-content/themes/sai/img/logo-san-angel-inn.png"
+            "imageurl": "https://sanangelinn.com/wp-content/themes/sai/img/logo-san-angel-inn.png",
+            "membership": "Silver"
             
         },
         {
@@ -42,7 +46,8 @@
             "phone": "+9999 999 999",
             "website": "https://docsmx.org/",
             "site": "www.docsmx.org",
-            "imageurl": "https://scontent.fmex28-1.fna.fbcdn.net/v/t39.30808-6/241097532_6720172788008293_6615855281018885480_n.png?_nc_cat=102&ccb=1-7&_nc_sid=174925&_nc_ohc=oeilsdR1DMwAX_n39pW&_nc_ht=scontent.fmex28-1.fna&oh=00_AfA-j4V0Bmaqr7ZXMFBjEOjb4GtaEiYymN-GyGZn_yeSCQ&oe=6371EF22"
+            "imageurl": "https://pbs.twimg.com/profile_images/1456020614465081344/OfmpJtS9_400x400.jpg",
+            "membership": "Gold"
             
         },
         {
@@ -51,7 +56,8 @@
             "phone": "+9999 999 999",
             "website": "https://elrollo.com.mx/",
             "site": "www.aquasplash.com",
-            "imageurl": "https://elrollo.com.mx/images/el_rollo_logo_sm.png"
+            "imageurl": "https://elrollo.com.mx/images/el_rollo_logo_sm.png",
+            "membership": "NP"
         
         },
         {
@@ -60,7 +66,8 @@
            "phone": "+9999 999 999",
             "website": "https://www.nestle.com.mx/",
             "site": "www.nestle.com",
-            "imageurl": "https://www.nestle.com.mx/themes/custom/da_vinci_code/logo.png"
+            "imageurl": "https://www.nestle.com.mx/themes/custom/da_vinci_code/logo.png",
+            "membership": "Gold"
         
         },
         {
@@ -69,7 +76,8 @@
             "phone": "+9999 999 999",
             "website": "https://www.sixflags.com.mx/mexico",
             "site": "www.sixflags.com",
-            "imageurl": "https://sf-static.sixflags.com/wp-content/uploads/2020/04/coasterlogo.png"
+            "imageurl": "https://sf-static.sixflags.com/wp-content/uploads/2020/04/coasterlogo.png",
+            "membership": "Bronze"
       
         },
         {
@@ -78,7 +86,8 @@
             "phone": "+9999 999 999",
             "website": "https://www.decathlon.com.mx/",
             "site": "www.decathlon.com",
-            "imageurl": "https://www.decathlon.com.mx/themes/decashop_v5/assets/img/logo-decathlon-blue.svg"
+            "imageurl": "https://www.decathlon.com.mx/themes/decashop_v5/assets/img/logo-decathlon-blue.svg",
+            "membership": "Bronze"
          
         }
     ]
