@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="This is the CDMX First Chamber of Commerce contact Information.">
+    <title>Contact • CDMX First Chamber of Commerce</title>
+    <script src="scripts/main.js" defer></script>
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+  </head>
+  <body>
+    <header>
+      <div class="head">
+        <picture>
+          <img src="images/logo.webp" alt="CDMXCC Logo">
+        </picture>
+        <div class="title">
+          <h1>CDMX First<br />Chamber of Commerce</h1>
+        </div>
+        <div class="socialMedia">
+          <span>
+            <a href="https://www.facebook.com/">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14222 14222">
+                <circle cx="7111" cy="7112" r="7111" fill="#1977f3"></circle>
+                <path
+                  d="M9879 9168l315-2056H8222V5778c0-562 275-1111 1159-1111h897V2917s-814-139-1592-139c-1624 0-2686 984-2686 2767v1567H4194v2056h1806v4969c362 57 733 86 1111 86s749-30 1111-86V9168z"
+                  fill="#fff"
+                />
+              </svg>
+            </a>
+          </span>
+          <span>
+            <a href="https://www.linkedin.com/">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 64 64"
+                role="img"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <title>Linkedin</title>
+                <desc>A color styled icon from Orion Icon Library.</desc>
+                <path
+                  data-name="layer1"
+                  fill="#0077b7"
+                  d="M1.15 21.7h13V61h-13zm46.55-1.3c-5.7 0-9.1 2.1-12.7 6.7v-5.4H22V61h13.1V39.7c0-4.5 2.3-8.9 7.5-8.9s8.3 4.4 8.3 8.8V61H64V38.7c0-15.5-10.5-18.3-16.3-18.3zM7.7 2.6C3.4 2.6 0 5.7 0 9.5s3.4 6.9 7.7 6.9 7.7-3.1 7.7-6.9S12 2.6 7.7 2.6z"
+                ></path>
+              </svg>
+            </a>
+          </span>
+        </div>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+      </div>
+      <div class="now">
+        <p id="today"></p>
+      </div>
+      <nav>
+        <ul id="primaryNav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li class="active"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div id="joinUs">
+        <h2> Come join us for the chamber meet and greet Wednesday at 7:00 p.m!
+        </h2>
+      </div>
+    </header>
+    <main class="join contact">
+      <div>
+        <form method="get" action="submitted.html">
+          <fieldset>
+            <legend>Contact Us</legend>
+            <label class="top">
+              First name*<input type="text" name="fname" required />
+            </label>
+            <label class="top">
+              Last name*<input type="text" name="lname" required />
+            </label>
+            <label class="top"
+              >Email*<input
+                type="email"
+                name="email"
+                placeholder="someone@gmail.com"
+                required
+            /></label>
+            <label class="top"
+              >Phone Number<input
+                type="tel"
+                name="phone"
+                placeholder="123-444-5678"
+                pattern="[0-9]{10}"
+            /></label>
+            <label class="top">
+              Questions/Concerns<textarea
+                name="description"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </label>
+            <label>
+              <input type="hidden" id="fdate" name="fdate" />
+            </label>
+          </fieldset>
+          <label class="joininput">
+            <input type="submit" value="Contact CDMX First" class="joinBtn" />
+          </label>
+        </form>
+      </div>
+      <div class="map" secure>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.973817726558!2d-99.16639479999999!3d19.4135372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff3f49d4891f%3A0xe50e05b643f6c4a2!2sAv.%20Insurgentes%20Sur%20319%2C%20Hip%C3%B3dromo%2C%20Cuauht%C3%A9moc%2C%2006100%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses!2smx!4v1669518469426!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </main>
+    <footer>
+      <div class="main">
+        <picture>
+          <img src="images/logo.webp" alt=" CDMXCC Logo">
+        </picture>
+        <div class="mainTitle">
+          <h2>
+            Mexico City
+            <br>
+            Chamber of Commerce
+          </h2>
+          <p>Insurgentes Sur 319<br>Hipódromo Condesa, Mexico City</p>
+        </div>
+        <div class="mainInfo">
+          <p>hola@cdmxcc.com</p>
+          <p>(+52) 9999 999 999</p>
+          <a>
+            Location Map
+          </a>
+        </div>
+      </div>
+      <div class="footer">
+        <p id="year">&#169; 2022 Mexico City Chamber</p>
+        <p>Lilly Armenta</p>
+        <p>WDD 230 Project</p>
+        <p id="modified"></p>
+      </div>
+    </footer>
+  </body>
+</html>
