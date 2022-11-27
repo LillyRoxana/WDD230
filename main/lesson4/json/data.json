@@ -7,7 +7,8 @@
             "website": "https://www.chedraui.com.mx/selecto",
             "site": "www.chedraui.com",
             "imageurl": "https://chedrauimx.vtexassets.com/assets/vtex.file-manager-graphql/images/ea5c1413-971b-4b55-a906-d232216b2dd9___df4fd208880219bf1d7d67626306b6d5.svg",
-            "membership": "Silver"
+            "membership": "Silver",
+            "moto": "It costs less at Chedraui!"
             
         },
         {
@@ -17,7 +18,8 @@
             "website": "http://museopalaciodebellasartes.gob.mx/",
             "site": "www.bellasartes.gob.mx/",
             "imageurl": "https://pbs.twimg.com/profile_images/1562853044433424384/IeXJ0m-2_400x400.jpg",
-            "membership": "Gold"
+            "membership": "Gold",
+            "moto": "Experience the culture!"
             
         },
         {
@@ -28,7 +30,7 @@
             "site": "www.palaciodelosdeportes.mx",
             "imageurl": "https://media.ticketmaster.com/tm/en-us/dbimages/21945v.jpg",
             "membership": "NP"
-            
+
         },
         {
             "name": "San Angel Inn Hospital",
@@ -37,7 +39,8 @@
             "website": "https://sanangelinn.com/",
             "site": "www.sanangelinn.com",
             "imageurl": "https://sanangelinn.com/wp-content/themes/sai/img/logo-san-angel-inn.png",
-            "membership": "Silver"
+            "membership": "Silver",
+            "moto": "We want you to be healthy"
             
         },
         {
@@ -47,7 +50,8 @@
             "website": "https://docsmx.org/",
             "site": "www.docsmx.org",
             "imageurl": "https://pbs.twimg.com/profile_images/1456020614465081344/OfmpJtS9_400x400.jpg",
-            "membership": "Gold"
+            "membership": "Gold",
+            "moto": "Experience the cinema!"
             
         },
         {
@@ -58,7 +62,6 @@
             "site": "www.aquasplash.com",
             "imageurl": "https://elrollo.com.mx/images/el_rollo_logo_sm.png",
             "membership": "NP"
-        
         },
         {
             "name": "Nestlé",
@@ -67,7 +70,8 @@
             "website": "https://www.nestle.com.mx/",
             "site": "www.nestle.com",
             "imageurl": "https://www.nestle.com.mx/themes/custom/da_vinci_code/logo.png",
-            "membership": "Gold"
+            "membership": "Gold",
+            "moto": "Good food, good life!"
         
         },
         {
