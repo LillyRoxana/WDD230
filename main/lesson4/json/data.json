@@ -27,7 +27,7 @@
             "website": "https://palaciodelosdeportes.mx/",
             "site": "www.palaciodelosdeportes.mx",
             "imageurl": "https://media.ticketmaster.com/tm/en-us/dbimages/21945v.jpg",
-            "membership": "NP"
+            "membership": "Gold"
             
         },
         {
@@ -57,7 +57,7 @@
             "website": "https://elrollo.com.mx/",
             "site": "www.aquasplash.com",
             "imageurl": "https://elrollo.com.mx/images/el_rollo_logo_sm.png",
-            "membership": "NP"
+            "membership": "Silver"
         
         },
         {
@@ -77,7 +77,7 @@
             "website": "https://www.sixflags.com.mx/mexico",
             "site": "www.sixflags.com",
             "imageurl": "https://sf-static.sixflags.com/wp-content/uploads/2020/04/coasterlogo.png",
-            "membership": "Bronze"
+            "membership": "Gold"
       
         },
         {
@@ -87,7 +87,7 @@
             "website": "https://www.decathlon.com.mx/",
             "site": "www.decathlon.com",
             "imageurl": "https://www.decathlon.com.mx/themes/decashop_v5/assets/img/logo-decathlon-blue.svg",
-            "membership": "Bronze"
+            "membership": "Silver"
          
         }
     ]
