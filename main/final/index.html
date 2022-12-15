@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description">
+    <title>Bountiful Foods</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel&family=Cinzel+Decorative&family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1 class="hidden">Bountiful Foods</h1>
+        <picture>
+          <img src="images/bountifulfoods-logo.png" alt="Bountiful Foods Logo" />
+        </picture>
+      </div>
+      <div class="nav-bar">
+        <nav>
+          <ul id="primary-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="fresh.html">Fresh</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+          </ul>
+        </nav>
+        <div class="social-media">
+          <a href="https://www.pinterest.com/">
+            <picture>
+              <img src="images/pinterest-logo.png" alt="Pinterest" />
+            </picture>
+          </a>
+          <a href="https://www.instagram.com/">
+            <picture>
+              <img src="images/instagram-logo.png" alt="Instagram" />
+            </picture>
+          </a>
+          <a href="https://twitter.com/">
+            <picture>
+              <img src="images/twitter-logo.png" alt="Twitter" />
+            </picture>
+          </a>
+          <a href="https://www.facebook.com/">
+            <picture>
+              <img src="images/facebook-logo.png" alt="Facebook" />
+            </picture>
+          </a>
+          <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        </div>
+      </div>
+    </header>
+    <main class="home">
+      <div class="hero-container">
+        <picture class="hero">
+          <img src="images/home-hero-image.jpg" alt="Hero Imagen" />
+        </picture>
+        <a class="all-caps" href="fresh.html">Order with us</a>
+      </div>
+      <div class="cards">
+        <div class="grid">
+          <div class="boundary">
+            <picture>
+              <source
+                media="(max-width: 874px)"
+                srcset="images/orange162.jpg"
+              />
+              <img
+                src="images/orange236.jpg"
+                alt="Orange"
+              />
+            </picture>
+          </div>
+          <div class="boundary">
+            <picture>
+              <source
+                media="(max-width: 874px)"
+                srcset="images/granada162.jpg"
+              />
+              <img
+                src="images/granada236.jpg"
+                alt="Granada"
+              />
+            </picture>
+          </div>
+          <div class="boundary">
+            <picture>
+              <source
+                media="(max-width: 874px)"
+                srcset="images/blueberries162.jpg"
+              />
+              <img src="images/blueberries236.jpg" alt="Blueberries" />
+            </picture>
+          </div>
+          <div class="boundary">
+            <picture>
+              <source
+                media="(max-width: 874px)"
+                srcset="images/element162.jpg"
+              />
+              <img src="images/element236.jpg" alt="Element" />
+            </picture>
+          </div>
+          <div class="boundary">
+            <picture>
+              <source
+                media="(max-width: 874px)"
+                srcset="images/sandia162.jpg"
+              />
+              <img src="images/sandia236.jpg" alt="Sandia" />
+            </picture>
+          </div>
+          <div class="boundary">
+            <picture>
+              <source
+                media="(max-width: 874px)"
+                srcset="images/limones162.jpg"
+              />
+              <img src="images/limones236.jpg" alt="limones" />
+            </picture>
+          </div>
+        </div>
+        <div class="temple boundary">
+          <div class="boundary">
+            <picture>
+              <source
+                media="(max-width: 1000px)"
+                srcset="images/sandiego200.jpg"
+              />
+              <img src="images/sandiego300.jpg" alt="San Diego" />
+            </picture>
+          </div>
+          <div>
+            <h2 class="all-caps">San Diego - California Coast</h2>
+            <p>
+              San Diego is a city on the Pacific Ocean coast of Southern California located immediately adjacent to the Mexico–United States border. With a 2020 population of 1,386,932 it is the eighth most populous city in the United States and the seat of San Diego County, the fifth most populous county in the United States, with 3,338,330 estimated residents as of 2019. The city is known for its mild year-round climate, natural deep-water harbor, extensive beaches and parks, long association with the United States Navy, and recent emergence as a healthcare and biotechnology development center. San Diego is the second largest city in the state of California, after Los Angeles.
+            </p>
+          </div>
+        </div>
+        <div class="weather alert hidden" id="weather-alert"></div>
+        <div class="weather" id="weather-info"></div>
+      </div>
+    </main>
+    <footer>
+      <div>
+        <picture>
+          <img
+            src="images/bountifulfoods-logo-small.png"
+            alt="Bountiful logo"
+          />
+        </picture>
+      </div>
+      <div class="footer-nav">
+        <h2 class="all-caps">Site index</h2>
+        <ul>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="fresh.html">Fresh</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="all-caps">Visit us</p>
+        <p>San Diego</p>
+        <p>(999) 999-9999</p>
+        <p>              </p>
+        <p>
+          <a
+            href=""
+            ><img src="images/pin.png" alt="Location" />Location</a>
+        </p>
+      </div>
+      <div class="info">
+        <p>&#169; 2022 Bountiful Foods</p>
+        <p>Lilly Armenta</p>
+        <p>WDD230 Final</p>
+        <p id="updated"></p>
+        <p>
+          Weather Information ->
+          <a href="https://openweathermap.org/">OpenWeatherMap</a>
+        </p>
+        <p><a href="sources.html">Sources</a></p>
+      </div>
+    </footer>
+    <script>
+      function hideAlert() {
+        document.getElementById("weather-alert").classList.add("hidden");
+      }
+    </script>
+  </body>
+</html>
