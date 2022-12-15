@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description">
+    <title>Bountiful Foods</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel&family=Cinzel+Decorative&family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1 class="hidden">Bountiful Foods</h1>
+        <picture>
+          <img src="images/bountifulfoods-logo.png" alt="Bountiful Foods Logo" />
+        </picture>
+      </div>
+      <div class="nav-bar">
+        <nav>
+          <ul id="primary-nav">
+            
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="fresh.html">Fresh</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+          </ul>
+        </nav>
+        <div class="social-media">
+          <a href="https://www.pinterest.com/">
+            <picture>
+              <img src="images/pinterest-logo.png" alt="Pinterest" />
+            </picture>
+          </a>
+          <a href="https://www.instagram.com/">
+            <picture>
+              <img src="images/instagram-logo.png" alt="Instagram" />
+            </picture>
+          </a>
+          <a href="https://twitter.com/">
+            <picture>
+              <img src="images/twitter-logo.png" alt="Twitter" />
+            </picture>
+          </a>
+          <a href="https://www.facebook.com/">
+            <picture>
+              <img src="images/facebook-logo.png" alt="Facebook" />
+            </picture>
+          </a>
+          <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        </div>
+      </div>
+    </header>
+  <main class="fresh">
+    <section>
+      <div class="join contact">
+        <h2>Make your drink!</h2>
+        <form action="/fresh.html" class="form">
+          <fieldset>
+            <legend>Fill the Form</legend>
+            <label for="fname">First Name*</label>
+            <input type="text" name="fname" id="fname" required>
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" id="lname">
+            <label for="email">Email*</label>
+            <input type="email" name="email" id="email" placeholder=" email@gmail.com" required>
+            <label for="cellphone">Cell Phone*</label>
+            <input type="tel" name="cellphone" id="cellphone" placeholder=" 094583456" required>
+
+            <label for="options">Select the first fruit*</label>
+            <select name="firstoption" id="firstoption" required>
+              <option value="">Select a fruit</option>
+            </select>
+            <label for="options">Select the second fruit</label>
+            <select name="secondoption" id="secondoption">
+              <option value="">Select a fruit</option>
+            </select>
+            <label for="options">Select the third fruit</label>
+            <select name="thirdoption" id="thirdoption">
+              <option value="">Select a fruit</option>
+            </select>
+            <label for="instructions">Additional Instructions</label>
+            <textarea name="instructions" id="instructions" cols="30" rows="5"></textarea>
+            <input type="text" name="datetime" id="datetime" hidden>
+          </fieldset>
+        </form>
+        <input type="submit" class="btn" name="btn" id="btn" value="Submit"
+          onclick="displayFormData()">
+      </div>
+      <div class="drinkinfo">
+        <h2>Drink Information</h2>
+        <p id="fullnameinput"></p>
+        <p id="emailinput"></p>
+        <p id="phoneinput"></p>
+        <p id="firstoptioninput"></p>
+        <p id="secondoptioninput"></p>
+        <p id="thirdoptioninput"></p>
+        <p id="instructionsinput"></p>
+        <p id="dateinput"></p>
+        <div class="displayinfo"></div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div>
+      <picture>
+        <img
+          src="images/bountifulfoods-logo-small.png"
+          alt="Bountiful logo"
+        />
+      </picture>
+    </div>
+    <div class="footer-nav">
+      <h2 class="all-caps">Site index</h2>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="fresh.html">Fresh</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="all-caps">Visit us</p>
+      <p>San Diego</p>
+      <p>(999) 999-9999</p>
+      <p>              </p>
+      <p>
+        <a
+          href=""
+          ><img src="images/pin.png" alt="Location" />Location</a>
+      </p>
+    </div>
+    <div class="info">
+      <p>&#169; 2022 Bountiful Foods</p>
+      <p>Lilly Armenta</p>
+      <p>WDD230 Final</p>
+      <p id="updated"></p>
+      <p>
+        Weather Information ->
+        <a href="https://openweathermap.org/">OpenWeatherMap</a>
+      </p>
+      <p><a href="sources.html">Sources</a></p>
+    </div>
+  </footer>
+  <script src="scripts/dates.js"></script>
+  <script src="scripts/nav-button.js"></script>
+  <script src="scripts/fruit-info.js"></script>
+</body>
+
+</html>

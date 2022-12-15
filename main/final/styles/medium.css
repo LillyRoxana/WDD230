@@ -1,6 +1,6 @@
 @media (min-width: 45em) {
   body {
-    background-color: #2a3249;
+    background-color: rgba(125, 231, 125, 0.7);
   }
 
   footer div:first-child {
