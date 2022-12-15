@@ -41,7 +41,7 @@ function createDailyCards(weatherData) {
 
         const d = new Date(+new Date() + 86400000 * i);
         h2.innerHTML = `${weekday[d.getDay()]}, ${month[d.getMonth()]} ${d.getDate()} ${d.getFullYear()}`;
-        img.setAttribute("src", `https://antonio-saucedo.github.io/wdd230/final/images/weatherIcons/${weatherData.daily[i].weather[0].icon}.png`);
+        img.setAttribute("src", `https://lillyroxana.github.io/main/final/images/weatherIcons/${weatherData.daily[i].weather[0].icon}.png`);
         img.setAttribute("width", "75");
 
         // Capitalize first letter of each word.
